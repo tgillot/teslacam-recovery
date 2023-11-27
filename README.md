@@ -6,14 +6,18 @@ This repo contains a short script that will scan your entire FAT32 or exFAT USB 
 
 Warning: This is not meant to be a fool-proof guide. This is oriented towards the technically minded with some familiarity with Python and filesystems.
 
+# Prerequisites
+
+* Python 3
+
 # Basics
 
 I've only used this on macOS. Linux instructions should be pretty identical. Windows should be pretty close.
 
 * Plug in your USB drive and unmount it.
 * Figure out the device node for your FAT32 or exFAT partition. On macOS, you can find this in Disk Utility when you click the "Info" button for your volume. It should be something like "disk2s1".
-* Create a directory for the output.
-* Run the script, providing the directory path and device node like so: `sudo ./run.py /dev/disk2s1 myoutputdirectory`
+* Create a local directory to store the output (e.g., teslacamrecovery). 
+* Run the script, providing the directory path and device node like so: `sudo ./run.py /dev/disk2s1 teslacamrecovery`
 
 This will take a while. The script is not made for space or time efficiency. You'll need a lot of spare disk space (possibly up to twice as much as your drive's capacity).
 
