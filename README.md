@@ -6,6 +6,10 @@ This repo contains a short script that will scan your entire FAT32 or exFAT USB 
 
 Warning: This is not meant to be a fool-proof guide. This is oriented towards the technically minded with some familiarity with Python and filesystems.
 
+# Prerequisites
+
+* Python 3
+
 # Basics
 
 I've only used this on macOS. Linux instructions should be pretty identical. Windows should be pretty close.
