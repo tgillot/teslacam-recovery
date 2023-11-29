@@ -12,7 +12,7 @@ Warning: This is not meant to be a fool-proof guide. This is oriented towards th
 
 # Basics
 
-Mac OS:
+macOS:
 * Plug in your USB drive and unmount it.
 * Figure out the device node for your FAT32 or exFAT partition. You can find this in Disk Utility when you click the "Info" button for your volume. It should be something like "disk2s1".
 * Create a local directory to store the output (e.g., teslacamrecovery). 
